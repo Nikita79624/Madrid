@@ -1,0 +1,344 @@
+body{
+margin:0 !important;
+max-width: 100%;
+}
+.h1, h2{
+    margin: 0;
+}
+.p{
+    margin: 0 0 10px;
+}
+/*ss ==============*/
+.conteiner{
+padding: 14px 0;
+width: 100%;
+background: #000000;
+}
+.location{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.boiti{
+display: flex;
+position: relative;
+}
+.info_sop{
+color: #969696;
+font-family: PT Sans;
+font-size: 12px;
+line-height: 16px;
+}
+.enter, .check{
+color: #969696;
+text-decoration: none;
+font-family: PT Sans;
+font-size: 12px;
+line-height: 16px;
+}
+.branch{ 
+color: #969696;
+font-size: 12px;
+line-height: 16px;
+margin-left: 5px;
+margin-right: 5px;
+}
+.header{
+    width: 100%;
+    background: #0F0F0F;   
+}
+.header_inner{
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;       
+}
+.nav1{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.logo{
+    color: #FFFFFF;
+font-family: Post No Bills Jaffna;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+}
+/*header ==============*/
+.intro{
+    background: url("../img/lil.png") center no-repeat;
+    background-size: cover;
+}
+.conteiner1{
+  display: flex;
+  flex-direction: column;
+  max-width: 710px;
+  margin: 0 auto;
+  padding: 160px 0;
+  }
+.rama{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.ramen{
+    color:white;
+    text-transform: uppercase;
+    font-family: Post No Bills Jaffna;
+    font-size: 64px;
+    line-height: 96px;
+}
+.intro_s{
+color: #FFFFFF;
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+text-transform: uppercase;
+}
+/*collection20/21 ==============*/
+.conteiner_collection{
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000000;
+}
+.rev_item{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.offers{
+    width: 60%;    
+}
+.Entrance{
+   width: 100%;
+   max-width: 880px;
+   margin: 0 auto;
+   padding: 93px 0;
+}
+.Entrance_item{
+    display: flex;
+    flex-wrap: wrap;
+        
+}
+.product1, .product2, .product3{
+    width: 33%;
+}
+.title1{
+    margin: 30px 0;
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;  
+}
+.price1{
+    font-family: Playfair Display;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D0D0D0;
+}
+.product_photo{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.photo_collections{
+    width: 40%;
+    position: relative;
+}
+.photo_coll{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.season2021{
+    font-family: Playfair Display;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.depar1{
+    margin: 50px 0;
+}
+.Department{
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    margin: 0 auto;
+}
+/*collection18 ==============*/
+.conteiner_collection1{
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    background-color: #000000;  
+}
+
+.rev_item1{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.offers1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.photo_collections1{
+    width: 40%;
+    height: 600px;
+    position: relative;
+}
+.photo_coll1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%); 
+}
+.collection_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 100px auto;       
+}
+.collection2018{
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;    
+}
+.collection_description{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 21px;
+    line-height: 150%;
+    
+}
+.button_collection{
+    color: #FFFFFF;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 73px;
+}
+.department1{
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    margin: 40px 0;
+}
+/*new_arrivals ==============*/
+.conteiner_arrivals{
+    width: 100%;
+    height: 1289px;
+    background-color: #000000;  
+}
+.fdfsdf{
+    margin: 120px 0 0 0;
+}
+.new_arrivals{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1109px;
+    margin: 0 auto;
+    
+    
+}
+.arrivals_item{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.rap{
+    width: 25%;
+}
+.rap2{
+    width: 25%;
+    margin-top: 40px;
+}
+.block{
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 325px;
+    background: #191B1C; 
+    position: relative;
+}
+.receipt_header{
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product_photo1{
+    position: absolute;
+    display: block;
+    
+    top: 50%;
+    left: 9%;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+/*footer ==============*/
+.footer_bagr{
+    width: 100%;
+    height: 400px;
+    background: url("../img/Rectangle.png") center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
